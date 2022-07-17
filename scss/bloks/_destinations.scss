@@ -1,0 +1,100 @@
+.destinations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 77px;
+  &__title {
+    font-family: "RedHatText-Medium", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: $red-base-color;
+    padding-left: 34px;
+  }
+
+  &-wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+
+    &__cards {
+      display: flex;
+      flex-direction: row;
+      margin-top: 46px;
+      align-items: center;
+      gap: 60px;
+    }
+  }
+
+  .destination-card {
+    width: 800px;
+    height: 800px;
+    border-radius: 16px;
+    flex: none;
+    flex-grow: 0;
+
+    &-left {
+      background-image: url("../img/bg-destin-1.jpeg");
+      background-repeat: no-repeat;
+      background-position: center 0;
+      order: 0;
+    }
+
+    &-front {
+      background-image: url("../img/bg-destin-2.jpeg");
+      background-repeat: no-repeat;
+      background-position: center 0;
+      order: 1;
+    }
+
+    &-right {
+      background-image: url("../img/bg-destin-3.jpeg");
+      background-repeat: no-repeat;
+      background-position: center 0;
+      order: 2;
+    }
+  }
+
+  .destination-text {
+    height: 42px;
+    margin-top: 718px;
+    margin-left: 15px;
+    font-family: "Red Hat Text", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 42px;
+    color: $white-color;
+  }
+
+  &__control {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &-pagination {
+      display: flex;
+      align-items: center;
+      margin-top: 24px;
+      margin-bottom: 40px;
+      padding-left: 34px;
+    }
+  }
+
+  &-text {
+    display: inline-block;
+    font-family: "RedHatText-Medium", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: $white-color;
+  }
+}
+
+.destinations-open {
+  padding-left: 44px;
+}

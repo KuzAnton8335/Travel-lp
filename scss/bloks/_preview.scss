@@ -1,0 +1,54 @@
+.preview {
+  background-image: url("../img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__container {
+    padding-top: 32px;
+    padding-bottom: 254px;
+    padding-left: 31px;
+  }
+
+  &__title {
+    font-family: "Aleo-Bold", sans-serif;
+    max-width: 892px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: $white-color;
+  }
+
+  &__descr {
+    font-family: "Aleo-Bolditalic", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 24px;
+    color: $white-color;
+    padding-top: 31px;
+    padding-bottom: 46px;
+  }
+
+  &__form {
+    display: inline-block;
+    position: relative;
+    &-input {
+      outline: none;
+      width: 892px;
+      height: 95px;
+      background: rgba(255, 255, 255, 0.7);
+      border: none;
+      border-radius: 16px;
+      padding-left: 45px;
+    }
+
+    &-input::placeholder {
+      font-family: "Aleo-Italic", sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      color: $red-base-color;
+    }
+  }
+}

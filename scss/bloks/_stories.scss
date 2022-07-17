@@ -1,0 +1,151 @@
+.stories {
+  &__title {
+    font-family: "RedHatText-Medium", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: $red-base-color;
+    margin-bottom: 43px;
+    padding-left: 34px;
+  }
+
+  &__wrapp {
+    background-image: url("../img/stories-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+  }
+  &__container {
+    max-width: 1920px;
+    min-height: 1270px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  &-block {
+    max-width: 1440px;
+    padding: 0 30px;
+    margin: 0 auto;
+    &__item {
+      display: flex;
+      flex-wrap: wrap;
+
+      padding-left: 90px;
+    }
+
+    &__item:not(:last-child) {
+      padding-top: 35px;
+    }
+
+    &__item:nth-child(3) {
+      padding-top: 30px;
+    }
+
+    &__item:nth-child(4) {
+      padding-top: 29px;
+    }
+
+    &__picture {
+      width: 400px;
+      height: 250px;
+      filter: drop-shadow(0px 4px 4px #0d606f);
+      border-radius: 16px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 41px;
+    }
+
+    &__picture-1 {
+      background-image: url("../img/storis-img-1.jpeg");
+      opacity: 1;
+    }
+
+    &__picture-2 {
+      background-image: url("../img/storis-img-2.jpeg");
+    }
+    &__picture-3 {
+      background-image: url("../img/storis-img-3.jpeg");
+    }
+
+    &__picture-4 {
+      background-image: url("../img/storis-img-4.jpeg");
+    }
+
+    &__description {
+      max-width: 760px;
+      min-height: 184px;
+    }
+
+    &__subtitle {
+      font-family: "Aleo-Regular", sans-serif;
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 42px;
+      color: $btn-color;
+      padding-bottom: 24px;
+    }
+
+    &__text {
+      font-family: "Aleo-Regular", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: $btn-color;
+    }
+
+    &__link {
+      font-family: "Aleo-Bold", sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-decoration-line: underline;
+      color: $btn-color;
+    }
+  }
+
+  &-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 22px;
+    padding-top: 40px;
+  }
+}
+
+.footer {
+  width: 1920px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/stories-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin-top: 42px;
+
+  &__text {
+    font-family: "RedHatText-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: $white-color;
+    padding-left: 472px;
+  }
+
+  &-list {
+    padding-left: 328px;
+    display: flex;
+    align-items: center;
+    &__item:not(:last-child) {
+      padding-right: 21px;
+    }
+  }
+}
