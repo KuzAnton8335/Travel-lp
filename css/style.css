@@ -311,6 +311,21 @@ body {
   margin-right: 15px;
 }
 
+.btn__signin {
+  background: #0d606f;
+  -webkit-box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+          box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 229px;
+  font-family: "Aleo-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 1110px) {
   .btn__login {
     margin-left: 100px;
@@ -1449,4 +1464,90 @@ body {
 .popup__line::after {
   margin-right: -100%;
   right: -14px;
+}
+
+.popup__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.popup__form-label {
+  font-family: "Aleo-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0d606f;
+  padding-bottom: 5px;
+}
+
+.popup__form-email-input {
+  width: 560px;
+  height: 54px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+          box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.popup__form-password-input {
+  width: 560px;
+  height: 54px;
+  background: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+          box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.popup__form-link {
+  font-family: "Aleo-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0d606f;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  padding-bottom: 26px;
+}
+
+.popup__line-close {
+  width: 560px;
+  height: 1px;
+  border: 1px solid rgba(13, 96, 111, 0.5);
+  margin-bottom: 20px;
+}
+
+.popup__reg {
+  text-align: center;
+}
+
+.popup__reg-text {
+  font-family: "Aleo-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(13, 96, 111, 0.5);
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+
+.popup__reg-register {
+  font-family: "Aleo-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0d606f;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
 }
